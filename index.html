@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>expense-manager</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<script
+			defer
+			src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+			integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+			crossorigin="anonymous"
+        ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<body>
+        <nav class="navbar navbar-dark bg-dark ">
+                <span class="navbar-brand mb-1 h1">Expense-App</span>
+                <span class="navbar-brand mb-1 h1" id="total"></span>
+        </nav>
+    <div class="container-fluid bg-light " style="min-height: 100vh">
+       <div class="container  pt-4">
+            <div class="jumbotron ">
+                <div class="form-row align-items-center p-4">
+                        <div class="col-auto">
+                                <label class="sr-only" for="inlineFormInput">Description</label>
+                                <input type="text" class="form-control mb-2" id="text" placeholder="Description">
+                        </div>
+                        <div class="col-auto">
+                                <label class="sr-only" for="inlineFormInputGroup">amount</label>
+                                <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                                <div class="input-group-text bg-dark text-white">$</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="exp" placeholder="0">
+                                </div>
+                        </div>
+                        <div class="col-auto">
+                                    <button class="btn btn-primary mb-2" id="btn">ADD</button>
+                        </div>
+                </div>
+            </div>
+   
+                                        <div>
+                                                <ul class="list-group " id="list"></ul>
+                                                </ul>
+                                        </div>
+    </div>
+</div>
+    <script  src="first.js"></script>
+</body>
+</html>
